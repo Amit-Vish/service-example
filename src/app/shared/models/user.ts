@@ -16,11 +16,11 @@ export class User implements iUser{
     highschool:string;
     
     constructor(params: any){
-        this.id = params.data.id;
-        this.firstName = params.data.first_name;
-        this.lastName = params.data.last_name;
-        this.email = params.data.email;
-        this.phase = params.data.phase;        
-        this.highschool = params.data.highschool;
+        this.id = params.id;
+        this.firstName = params.first_name;
+        this.lastName = params.last_name;
+        this.email = params.email;
+        this.phase = params.phase;        
+        this.highschool = params.highschool;
     }
 }
