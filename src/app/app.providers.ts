@@ -1,11 +1,13 @@
 import { HTTP_PROVIDERS } from '@angular/http';
 import { FORM_PROVIDERS, } from '@angular/common';
 import { ROUTER_PROVIDERS } from '@angular/router';
+import {UrlConstants} from "./shared/services/url-constants.service";
 
 
 
 export const APP_PROVIDERS = [
     FORM_PROVIDERS,
     ROUTER_PROVIDERS,
-    HTTP_PROVIDERS
+    HTTP_PROVIDERS,
+    UrlConstants
 ];
